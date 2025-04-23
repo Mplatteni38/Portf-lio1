@@ -31,22 +31,48 @@ html {
     padding: 1.5rem;
 }
 
-.menu {
-    display: flex;
-   justify-content: center;
-    list-style: none;
-    gap: 3rem;
 
+i#burguer{
+    background-color: #000000b2;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 
 }
 
-.menu-link {
-    text-decoration: none;
-    color: var(--claro);
-     font-weight: 500;
-    position: relative;
-    padding: 0.5rem;
+i#burguer:hover{
+    background-color: rgb(99, 96, 96);
+    color: rgb(196, 37, 37);
 }
+
+#itens{
+    display: none;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.menu-link:hover{
+    background-color: #947272;
+    color: #07ca32;
+}
+
+.itens{
+   display: none;
+   text-align: center;
+
+}
+
+.itens-link {
+ display: none;
+}
+
+.menu-link{
+    color: #e2e8f0;
+}
+
 
 .menu-link::after{
     content:'';
@@ -124,6 +150,13 @@ h1 {
 .projetos{
     padding: 6rem 2rem;
     
+}
+
+.enviarWhats h1 {
+     font-size: 16px;
+     color: #07ca32;
+     text-align: center;
+
 }
 
 .projetos-caixa{
@@ -216,10 +249,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     }
 
-    .contato-titulo{
-        
-
-    }
+   
 
     .formulario-contato{
         max-width: 400px;
