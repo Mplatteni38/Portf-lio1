@@ -12,43 +12,45 @@
 
 </head>
 <body>
-<div class="particulas"></div>
-
-
-
-    <nav class="navegacao">
-       
-        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-        </i>
-        
-            <div id="itens">
-                <ul>
-                    <li>
-                        <a href="#inicio" class="menu-link">Início</a>
-                    </li>
-                    <li>
-                        <a href="#sobre"class="menu-link">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#projetos"class="menu-link">projetos</a>
-                    </li>
-                    <li>
-                        <a href="#contato"class="menu-link">Contato</a>
-                    </li>
-                </ul>
-         </div>
-       
+<div class="Michell">
+    <div class="particulas"></div>
     
-    </nav>
     
-     <main ind="inicio" class="cabecalho">
-        <img src="imagem/imagem.Michell.jpg" alt="imagem Michell" class="foto-perfil">
-        <h1>Michell Platteni</h1>
-        <p class="cabecalho-sub">Desenvolvedor Front End</p>
-     
-
-     </main>
+    
+        <nav class="navegacao">
+    
+            <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
+            </i>
+    
+                <div id="itens">
+                    <ul>
+                        <li>
+                            <a href="#inicio" class="menu-link">Início</a>
+                        </li>
+                        <li>
+                            <a href="#sobre"class="menu-link">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#projetos"class="menu-link">projetos</a>
+                        </li>
+                        <li>
+                            <a href="#contato"class="menu-link">Contato</a>
+                        </li>
+                    </ul>
+             </div>
+    
+    
+        </nav>
+    
+         <main id="inicio" class="cabecalho">
+            <img src="imagem/imagem.Michell.jpg" alt="imagem Michell" class="foto-perfil">
+            <h1>Michell Platteni</h1>
+            <p class="cabecalho-sub">Desenvolvedor Front End</p>
+    
+    
+         </main>
+</div>
 
 
       <section id="sobre" class="sobre">  
@@ -102,10 +104,29 @@
                         </div>
                         </div>
           
-          
+          <div class="projeto-card">
+                        <img src="imagem/CAPA.DE.UNHAS.png" alt="projeto 1" class="projeto-imagem">
+                        <div class="caixa-texto-projetos">
+                            <h3 class="info-projetos">Disigner de Unhas</h3>
+                            <p class="paragrafo-projetos">💅 Projeto: Site para Designer de Unhas
+Criei um site profissional e responsivo para uma designer de unhas, com o objetivo de destacar seus trabalhos e atrair novas clientes. O layout foi desenvolvido com foco visual, incluindo uma galeria de fotos, descrição dos serviços e um botão de agendamento. Todo o design foi pensado para valorizar a identidade da profissional e garantir uma navegação agradável tanto em computadores quanto em celulares.. </p>
+                        </div>
+                        </div>
+
+
+
+                      <div class="projeto-card">
+                        <img src="imagem/CAPA.BARBEARIA.png"projeto 1" class="projeto-imagem">
+                        <div class="caixa-texto-projetos">
+                            <h3 class="info-projetos">Barbearia</h3>
+                            <p class="paragrafo-projetos">Site moderno e responsivo desenvolvido para um barbeiro, com foco na apresentação dos serviços, portfólio de cortes e agendamento online.. </p>
+                        </div>
+                        </div>
+
+
           
                     </div>
-
+                                     
 
 
  
@@ -133,8 +154,16 @@
 
           </form>
 
+
+          
           
       </section>  
+      
+        <footer class="rodape">
+    <p>© 2025 Todos os Dereitos reservados. Desenvolvido por <a href="https://github.com/Mplatteni38">Michell Platteni</a></p>
+</footer>
+      
+      
       <script>
 
 function enviarWhats(event){
@@ -142,7 +171,7 @@ event.preventDefault()
 
     const nome = document.getElementById('nome').value;
     const mensagem = document.getElementById('mensagem').value;
-    const telefone = '5511958456644';
+    const telefone = '5511982353935';
     const texto = 'olá! Me Chamo ${Michell}, ${mensagem}';
 
 
@@ -167,6 +196,7 @@ event.preventDefault()
 }
 
       </script>
+
 
 
 </body>
